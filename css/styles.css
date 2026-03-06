@@ -1,0 +1,50 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+background:#0f172a;
+color:#e2e8f0;
+font-family:sans-serif;
+}
+
+.glass-navbar {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.section-dark{
+background:#1e293b;
+}
+
+.section-light{
+background:#0f172a;
+}
+
+.accent{
+color:#38bdf8;
+}
+
+.btn-accent{
+background:#38bdf8;
+border:none;
+color:#0f172a;
+}
+
+.btn-accent:hover{
+background:#0ea5e9;
+}
+
+.card{
+background:#1e293b;
+border:none;
+color:#e2e8f0;
+}
+
+footer{
+background:#020617;
+}
